@@ -1,0 +1,15 @@
+<div class="title">
+    <p>Digite seus dados abaixo:</p>
+</div>
+
+    <div class="dados">
+        <input class="dados1" type="text" placeholder="Nome" [(ngModel)]="employee.name">
+        <input class="dados1" type="text" placeholder="Idade" [(ngModel)]="employee.idade">
+        <input class="dados1" type="text" placeholder="E-mail" [(ngModel)]="employee.email">
+        <input class="dados1" type="text" placeholder="Endereço" [(ngModel)]="employee.endereco">
+        <input class="dados1" type="text" placeholder="Telefone" mask="(00) 00000-0000" [(ngModel)]="employee.telefone">
+    </div>
+
+<button type="button" (click)="addEmployee($event)" id="buttonstyle">Adicionar dados</button>
+
+<button type="submit" [disabled]="employee.idade < 18" class="botao-final" onClick="window.location.reload()">Salvar informações</button>

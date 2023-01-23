@@ -1,0 +1,37 @@
+.idade-maior{
+    color: green;
+}
+
+.idade-menor{
+    color: red;
+}
+
+.lista-style{
+    color: white;
+    margin: 25px auto;
+    margin-top: 240px;
+    margin-left: 1200px;
+    left: 28%;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 10px;
+    outline: none;
+    line-height: 71px
+}
+#mensagem{
+    color: #fc5c65;
+    font-size: 18px;
+    position: absolute;
+    bottom: -3%;
+    left: 38%;
+}
+
+#dados-criados{
+    color: white;
+    position: absolute;
+    text-align:center;
+    top: 32%;
+    left: 76%;
+    font-family: sans-serif;
+    font-size: 30px;
+}

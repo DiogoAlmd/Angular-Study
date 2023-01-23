@@ -1,0 +1,12 @@
+<form action="first-page.component.html" class="box" method="POST">
+        <button (click) = "show()" type="button" value="botao">Crie sua conta aqui!</button>
+</form>
+
+<div [hidden] = "isDisplay">
+    <app-second-page></app-second-page>
+    <app-show-list></app-show-list>
+</div>
+
+<div class="assign">
+<h4>Developed by Diogo Pereira Almeida</h4>
+</div>
